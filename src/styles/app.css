@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/* Navbar styling */
+.navbar {
+  background-color: #788868;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin-top: 0%;
+  width: 100vw;
+}
+
+.h2-nav {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.p-nav {
+  align-self: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Main component, forms styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color: #b9cccc;
+  gap: 1.5em;
+}
+
+/* Info, Education, and Experience component styling */
+.info-sec,
+.education-sec,
+.experience-sec {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.info,
+.education,
+.experience {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #C8E2D1;
+  color: #333333;
+  padding: 2em;
+  border-radius: 2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-div,
+.education-div,
+.experience-div {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30em;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0 auto;
+  background-color: #C8E2D1;
+  padding: 2em;
+  border-radius: 2em;
+  color: #333333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Result div styling */
+.result-div {
+  display: none;
+  flex-direction: column;
+  width: 45vw;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2vh;
+  background-color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  color: #333333;
+  padding: 2em;
+  border-radius: 2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  margin-bottom: 1.5em;
+  border: none;
+}
+
+.result-div.visible {
+  display: block;
+  background-color: bisque;
+  border: none;
+}
+
+.result-p,
+.education-p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.result-div h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 1em;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  page-break-after: always;
+}
+
+.result-div h1 {
+  margin: auto;
+  align-self: center;
+}
+
+.resume-header {
+  text-decoration: underline;
+  font-size: 3em;
+}
+
+.resume-name,
+.personal-info h2,
+.experience-info h2,
+.education-info h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
+}
+
+.personal-info,
+.education-info,
+.experience-info
+{
+  font-size: 1.4em;
+  text-align: start;
+}
+
+/* PDF section styling */
+.pdf-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-resume {
+  display: block;
+  width: 20vw;
+  height: 11vh;
+  margin: 0 auto;
+  border-radius: 2em;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #C8E2D1;
+  background-color: #398ce4;
+  border: none;
+}
+
+/* Input styling in all components */
+.form-group {
+  margin-bottom: 2em;
+}
+
+.form-group label[for="description"] {
+  margin-bottom: 0.5em;
+}
+
+.form-group label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5em;
+  border-radius: 2em;
+}
+
+button.btn {
+  background-color: #398ce4;
+  align-self: center;
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 2em;
+  width: 12em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .info,
+  .experience,
+  .education {
+    max-width: 100%;
+  }
+}
