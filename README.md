@@ -13,10 +13,14 @@ Responsive Design: The application is built using responsive design principles, 
 ### Technologies Used
 The CV Creator is built using the following technologies:
 
-React: A JavaScript library for building user interfaces.
-HTML: The standard markup language for creating web pages and applications.
-CSS: The styling language used for designing the application's layout and appearance.
-JavaScript: The programming language used to add interactivity and functionality to the application.
+React: A JavaScript library for building user interfaces  
+
+HTML: The standard markup language for creating web pages and applications.  
+
+CSS: The styling language used for designing the application's layout and appearance.  
+
+JavaScript: The programming language used to add interactivity and functionality to the application.  
+
 html2pdf: A JavaScript library used for generating PDF files from HTML templates.
 
 ### Follow the instructions below to set up and run the CV Resume Builder locally:
